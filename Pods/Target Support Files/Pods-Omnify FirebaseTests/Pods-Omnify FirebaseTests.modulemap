@@ -1,0 +1,6 @@
+framework module Pods_Omnify_FirebaseTests {
+  umbrella header "Pods-Omnify FirebaseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

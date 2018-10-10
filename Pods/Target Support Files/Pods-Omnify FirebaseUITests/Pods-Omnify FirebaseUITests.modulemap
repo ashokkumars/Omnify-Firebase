@@ -1,0 +1,6 @@
+framework module Pods_Omnify_FirebaseUITests {
+  umbrella header "Pods-Omnify FirebaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
