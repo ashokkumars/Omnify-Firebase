@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0A0CE13F19B3017FE0CDD8AB /* Pods_Omnify_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0824CCE00D2DC6E376888 /* Pods_Omnify_FirebaseTests.framework */; };
 		2D21E70BDECCF9FA757A5056 /* Pods_Omnify_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032E594D879ECBC3955DECAE /* Pods_Omnify_Firebase.framework */; };
+		34CC20A4216E562700B8ED90 /* ResponseMappingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC20A3216E562700B8ED90 /* ResponseMappingKeys.swift */; };
+		34CC20A6216FC2FF00B8ED90 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC20A5216FC2FF00B8ED90 /* ArticleDetailViewController.swift */; };
 		57634870216DD178009297F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5763486F216DD178009297F4 /* AppDelegate.swift */; };
 		57634872216DD178009297F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57634871216DD178009297F4 /* ViewController.swift */; };
 		57634875216DD178009297F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57634873216DD178009297F4 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		09E482EBF5DCF49AC14A16A9 /* Pods_Omnify_FirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omnify_FirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		217A4FF6AE15E119A95A4C25 /* Pods-Omnify FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnify FirebaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Omnify FirebaseUITests/Pods-Omnify FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		22DD081209BC527A5B694C49 /* Pods-Omnify FirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnify FirebaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Omnify FirebaseUITests/Pods-Omnify FirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34CC20A3216E562700B8ED90 /* ResponseMappingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMappingKeys.swift; sourceTree = "<group>"; };
+		34CC20A5216FC2FF00B8ED90 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		44CE9E037CA7FD1760D0A5C4 /* Pods-Omnify FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Omnify FirebaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Omnify FirebaseTests/Pods-Omnify FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		51C0824CCE00D2DC6E376888 /* Pods_Omnify_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Omnify_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5763486C216DD178009297F4 /* Omnify Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omnify Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,8 @@
 				5763486F216DD178009297F4 /* AppDelegate.swift */,
 				57634871216DD178009297F4 /* ViewController.swift */,
 				576348A9216E0850009297F4 /* NetworkManager.swift */,
+				34CC20A3216E562700B8ED90 /* ResponseMappingKeys.swift */,
+				34CC20A5216FC2FF00B8ED90 /* ArticleDetailViewController.swift */,
 				576348A1216DE523009297F4 /* Articles List View */,
 				57634873216DD178009297F4 /* Main.storyboard */,
 				57634876216DD17C009297F4 /* Assets.xcassets */,
@@ -456,10 +462,12 @@
 				576348A0216DE516009297F4 /* ArticlesListViewPresenter.swift in Sources */,
 				57634872216DD178009297F4 /* ViewController.swift in Sources */,
 				57634870216DD178009297F4 /* AppDelegate.swift in Sources */,
+				34CC20A4216E562700B8ED90 /* ResponseMappingKeys.swift in Sources */,
 				576348AA216E0850009297F4 /* NetworkManager.swift in Sources */,
 				5763489E216DE4F6009297F4 /* ArticlesListViewController.swift in Sources */,
 				576348A7216E0595009297F4 /* ArticleModel.swift in Sources */,
 				576348A3216DEA48009297F4 /* ArticlesListTableViewCell.swift in Sources */,
+				34CC20A6216FC2FF00B8ED90 /* ArticleDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +644,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW8U73RL2H;
 				INFOPLIST_FILE = "Omnify Firebase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,6 +664,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LW8U73RL2H;
 				INFOPLIST_FILE = "Omnify Firebase/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

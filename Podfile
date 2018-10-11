@@ -8,6 +8,7 @@ target 'Omnify Firebase' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'RealmSwift'
+pod 'ScrollableSegmentedControl', '~> 1.3.0'
 
   # Pods for Omnify Firebase
 
